@@ -1,5 +1,5 @@
 //
-//  FirstViewController.h
+//  TweetSheetViewController.h
 //  TwitterCrient02
 //
 //  Created by inaba masaya on 13/05/15.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FirstViewController : UIViewController
+@interface TweetSheetViewController : UIViewController
 
 @end
