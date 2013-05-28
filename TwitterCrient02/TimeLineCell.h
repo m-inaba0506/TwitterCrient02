@@ -6,8 +6,27 @@
 //  Copyright (c) 2013年 inaba masaya. All rights reserved.
 //
 
+
 #import <UIKit/UIKit.h>
 
 @interface TimeLineCell : UITableViewCell
 
+
+@property (nonatomic, strong) UILabel *tweetTextLabel;
+
+@property (nonatomic, strong) UILabel *nameLabel;
+
+//@property (nonatomic, strong) UILabel *nameLabel2;
+
+@property (nonatomic, strong) UIImageView *imageView;
+
+//@property (nonatomic, strong) UIImageView *favimage;
+
+@property (nonatomic, strong) UIImage *image;
+
+@property (nonatomic) int tweetTextLabelHeight;
+
+//@property (nonatomic, strong) UILabel *favLabel;
+
+@property (nonatomic, strong) UIImageView *ribon;
 @end

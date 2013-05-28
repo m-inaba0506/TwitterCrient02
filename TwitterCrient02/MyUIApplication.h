@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "AppDelegate.h"
+#import "WebViewController.h"
 
 @interface MyUIApplication : UIApplication
+
+@property (nonatomic, strong) NSURL *myOpenURL;
+
 
 @end

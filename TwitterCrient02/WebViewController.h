@@ -9,5 +9,11 @@
 #import <UIKit/UIKit.h>
 
 @interface WebViewController : UIViewController
-
+@property (strong, nonatomic) IBOutlet UIWebView *webView;
+@property (strong, nonatomic) IBOutlet UIActivityIndicatorView *activityIndicator;
+@property (nonatomic, strong) NSURL *openURL;
+- (IBAction)go:(id)sender;
+- (IBAction)back:(id)sender;
+@property (strong, nonatomic) IBOutlet UIBarButtonItem *gobutton;
+@property (strong, nonatomic) IBOutlet UIBarButtonItem *backbutton;
 @end

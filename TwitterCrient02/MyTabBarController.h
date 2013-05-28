@@ -7,7 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <Social/Social.h>
+#import <Accounts/Accounts.h>
+#import "TimeLineTableViewController.h"
 
-@interface MyTabBarController : UITabBarController
+@interface MyTabBarController : UITabBarController<UITabBarControllerDelegate>
+
+
+@property (nonatomic, strong)ACAccount *account;
 
 @end
